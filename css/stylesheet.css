@@ -1,0 +1,133 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  background-image: url("https://static.pexels.com/photos/219692/pexels-photo-219692.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header .container {
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+}
+
+.header h1 {
+  position: relative;
+  top: 22%;
+  font-family: 'Reem Kufi', sans-serif;
+  color: white;
+  font-size: 200px;
+  text-align: center;
+}
+
+.header ul {
+  position:relative;
+  top: 22%;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.header ul li {
+  background-color: rgba(0, 0 ,0 , 0.75);
+  border-top: 2px solid #038EF9;
+  border-bottom: 2px solid #038EF9;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 80px;
+  color: white;
+}
+
+.main .container {
+  width: 100%;
+  margin-bottom: 180px;
+  padding-right: 0px;
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Reem Kufi', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.row h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.row p {
+  font-size: 25px;
+  padding-top: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-right: 0px;
+}
+
+#story {
+  border: 2px solid #31C42E;
+  background-color: rgba(0, 0 ,0 , 0.75);
+}
+
+#doggo {
+  padding: 0;
+}
+
+#workEd {
+  margin: 0;
+  float: right;
+  border: 2px solid #BF08DD; 
+  background-color: rgba(0, 0 ,0 , 0.75);
+}
+
+#portrait {
+  float:left;
+}
+
+#projects {
+  border: 2px solid #F83F32; 
+  background-color: rgba(0, 0 ,0 , 0.75);
+}
+
+.footer .container {
+  clear: both;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  text-align: center;
+}
+
+.footer h1 {
+  margin: 0;
+  margin-top: 6%;
+  font-family: 'Reem Kufi', sans-serif;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.footer ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin-top: 10px;
+}
+.footer li a{
+  font-family: 'Reem Kufi', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
