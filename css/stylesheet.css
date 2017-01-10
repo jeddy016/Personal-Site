@@ -12,6 +12,7 @@ html, body {
   margin: 0;
   height: 100vh;
   padding: 0;
+  text-align: center;
 }
 
 .header h1 {
@@ -20,18 +21,12 @@ html, body {
   font-family: 'Reem Kufi', sans-serif;
   color: white;
   font-size: 200px;
-  text-align: center;
 }
 
-.header ul {
+.header p {
   position:relative;
   top: 22%;
-  list-style: none;
-  text-align: center;
   padding: 0;
-}
-
-.header ul li {
   background-color: rgba(0, 0 ,0 , 0.75);
   border-top: 2px solid #038EF9;
   border-bottom: 2px solid #038EF9;
@@ -124,7 +119,7 @@ html, body {
 }
 
 .scrollToTop:hover {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .scrollToTop:visited {
