@@ -1,73 +1,91 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+	 <meta charset="utf-8">
     <title>JeddySpace</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <script src="jquery-3.1.1.min.js"></script>
 </head>
-<body>
-
-	<!--Scroll Btn-->
-		<a href="#" class="scrollToTop">^</a>
-
+<div class="container-flexible">
+<body translate="no" cz-shortcut-listen="true">
+    
+    <!--Scroll Btn-->
+		<a href="#" class="scrollToTop" style="display: none;">^</a>
+  
+   <!--NavBar-->
+   <div class="nav-container">
+      <ul id="nav">
+         <li id="li1">   
+            <a href="#about">About Me</a>            </li>
+         <li id="li2">
+            <a href="#portfolio"> Portfolio</a>
+         </li>
+         <li id="li3">
+            <a href="#contact">Contact</a>   
+         </li>
+      </ul>
+   </div>  
+   
 	<!-- Header -->
 	<div class="header">
-		<div class="container">
+		<div class="container-flexible">
 			<h1>Jordan Eddy</h1>
 				<p>-Aspiring Developer-</p>
 		</div>
 	</div>		
 
-	<!--Main-->
-	<div class="main">
-		<div class="container">
-			<div class= "story"> 
+	<!--My Story-->
+	<div class="main" id="about">
+		<div class="container-flexible">
+			<div class="story"> 
 				<h1>-My Story-</h1>
-				<p>I am an Army veteran, dog lover, beard enthusiast, and video-game nerd. Like your typical millenial, my early 20's were spent wondering just what the crap I wanted to do with my life. Well, I won't dare to say I finally have the answer, but I am now sure on the direction I want to go, and all signs point to programming.</p>
+				<p>I am an Army veteran, dog lover, beard enthusiast, and video-game nerd. Like your typical millenial, my early 20's were spent wondering just what the crap I wanted to do with my life. Well, I won't dare to say I finally have the answer, but I am now sure on the direction I want to go, and all signs point to Web Development.</p>
+        <p>While I am not at my full time day job or wrestling with my doggos, I am glued to the screen of my laptop, soaking up all I can to hopefully achieve my goal of obtaining a dev job by the end of 2017.</p>
 			</div>
 		</div>
 	</div>
+   
 			<!-- Porfolio -->
-	<div class= "portfolio">
-		<div class="container">
-			<div class= "header">
+	<div class="portfolio">
+		<div class="container-flexible">
+			<div class="header" id="portfolio">
 				<p>Portfolio</p>
 			</div>
 			
-			<div class= "rows">
-				<div class= "col">
+			<div class="row">
+				<div class="col-md-4">
+			      <a href="https://codepen.io/jeddy016/full/JEKjxw/" class="target1"><img class="portfolio-image img-responsive" src="https://raw.githubusercontent.com/jeddy016/Personal_Site/Master/images/tribute.png" alt="Deadpool Tribute Page"></a>
+				</div>
+				<div class="col-md-4">
 					<p>Coming Soon</p>
 				</div>
-				<div class= "col">
-					<p>Coming Soon</p>
-				</div>
-				<div class= "col">
-					<p>Coming Soon</p>
-				</div>
-			</div>
-			<div class= "rows">
-				<div class= "col">
-					<p>Coming Soon</p>
-				</div>
-				<div class= "col">
-					<p>Coming Soon</p>
-				</div>
-				<div class= "col">
+				<div class="col-md-4">
 					<p>Coming Soon</p>
 				</div>
 			</div>
-			<div class= "rows">
-				<div class= "col">
+			<div class="row">
+				<div class="col-md-4">
 					<p>Coming Soon</p>
 				</div>
-				<div class= "col">
+				<div class="col-md-4">
 					<p>Coming Soon</p>
 				</div>
-				<div class= "col">
+				<div class="col-md-4">
+					<p>Coming Soon</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<p>Coming Soon</p>
+				</div>
+				<div class="col-md-4">
+					<p>Coming Soon</p>
+				</div>
+				<div class="col-md-4">
 					<p>Coming Soon</p>
 				</div>
 			</div>
@@ -76,8 +94,8 @@
 
 	<!--Footer-->
 	<div class="footer">
-		<div class="container">
-			<h1>Contact Me</h1>
+		<div class="container-flexible">
+			<h1 id="contact">Contact Me</h1>
 				<ul>
 					<li><a href="https://www.facebook.com/jeddy16">- Facebook</a></li>
 					<li><a href="https://github.com/jeddy016">- Github</a></li>
@@ -86,7 +104,5 @@
 				</ul>
 		</div>
 	</div>
-	<script type='text/javascript' src='script.js'></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>  
-</html> 
+</body>
+</div>
