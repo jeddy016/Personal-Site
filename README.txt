@@ -1,6 +1,6 @@
 This was my very first attempt at a website, as well as using Git/Github. It is very basic (and pretty slow) but it was a good learning experience.
 
-Things I learned on this project:
+# Things I learned on this project:
     -Using version control to mitigate making extra folders for new features
     -How to deploy a site (registering domain, hosting, etc)
     -Centering Divs in CSS
